@@ -16,3 +16,26 @@ font-family: 'Roboto', sans-serif;
      
      font-family: 'Vidaloka',serif;
  }
+
+ .header{
+     background-image: url("/img/DaneWhitmanLarge.png");
+     background-repeat: none;
+     background-position: fixed;
+     background-size: cover;
+     background-color:radial-gradient(circle 827px at 47.3% 48%, rgba(255, 255, 255, 1) 0%, rgba(138, 192, 216, 1) 90%);
+     min-height: 400px;  
+ }
+
+ @media only screen and (min-width: 992px){
+     .header{
+          background-image: url("/img/DaneWhitmanLarge.png");
+         min-height: 400px;
+     }
+ }
+
+ @media only screen and (min-width: 576px) and (max-width: 991px) {
+     .header {
+         background-image: url("/img/DaneWhitmanSmall.png");
+        
+     }
+ }
