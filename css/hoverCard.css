@@ -1,15 +1,15 @@
-
-
-.hoverCard a{
+.hoverCard a {
     text-decoration: none;
 }
-.hoverCard a:link{
+
+.hoverCard a:link {
     color: var(--dark);
 }
+
 .hoverCard a:visited {
     color: var(--dark);
 }
 
-.hoverCard a:hover{
+.hoverCard a:hover {
     cursor: pointer
 }
